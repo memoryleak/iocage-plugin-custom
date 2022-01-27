@@ -1,0 +1,33 @@
+{
+    "artifact": "https://github.com/memoryleak/iocage-plugin-custom.git",
+    "fingerprints": {
+        "plugin-default": [
+            {
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438",
+                "function": "sha256"
+            }
+        ]
+    },
+    "name": "custom",
+    "official": false,
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
+    "pkgs": [
+        "bash",
+        "tmux",
+        "vim",
+        "git"
+    ],
+    "plugin_schema": "2",
+    "properties": {
+        "allow_mount_tmpfs": "1",
+        "allow_raw_sockets": "1",
+        "allow_mount": "1",
+        "allow_set_hostname": "1",
+        "allow_socket_af": "1",
+        "boot": "on",
+        "bpf": "yes",
+        "dhcp": "on",
+        "vnet": "on"
+    },
+    "release": "12.2-RELEASE"
+}

@@ -9,4 +9,4 @@ service sshd start
 
 # Setup bash
 chsh -s /usr/local/bin/bash
-echo 'PS1="\[\e[32m\]\u\[\e[m\]@\[\e[31m\]\h\[\e[m\]:[\[\e[35m\]\W\[\e[m\]]: "' >> /etc/profile
+echo 'PS1="\[\e[32m\]\u\[\e[m\]@\[\e[31m\]\h\[\e[m\]:[\[\e[35m\]\W\[\e[m\]]: "' > /usr/local/etc/profile
